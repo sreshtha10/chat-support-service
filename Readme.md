@@ -47,5 +47,8 @@ This project is a Chat Support Service built using Java and Spring Boot. It prov
 ## Configuration
 - Configure the MongoDB connection and external sentiment analysis service URL in the `application.properties` file.
 
+## Sentiment Analysis Integration
+This service uses a pre-trained BERT model for sentiment analysis via a Flask API provided by the [Chat Support Sentiment Analysis](https://github.com/sreshtha10/chat-support-sentiment-analysis) project. Ensure that the Flask service is running and accessible to this application for sentiment analysis functionality.
+
 ## License
 This project is licensed under the MIT License.
